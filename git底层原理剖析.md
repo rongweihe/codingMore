@@ -84,3 +84,6 @@ rawtest2
 git tag -a tagName -m''
 
 这种方式创建的标签，git 底层会创建一个 tag 对象，tag 对象会包含相关的 commit 信息和 tagger 等额外信息，此时如果使用 git cat-file -t tagname 会返回一个 tag。
+
+总结：所有对象模型之间的关系大致如下：
+![](https://pic1.zhimg.com/v2-d7113216a59f7fe01179b11d20e02814_1440w.png)
