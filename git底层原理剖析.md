@@ -87,3 +87,6 @@ git tag -a tagName -m''
 
 总结：所有对象模型之间的关系大致如下：
 ![](https://pic1.zhimg.com/v2-d7113216a59f7fe01179b11d20e02814_1440w.png)
+
+## Git哈希应用
+为什么能work？怎么去拆分或者合并commit？ 
